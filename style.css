@@ -4,7 +4,7 @@ background: linear-gradient(-45deg, #cbcbcb);
   padding: 0;
   background-image: linear-gradient(lightblue,white,  red);
 }
-h1, h2, h3 {
+.main_title, .hook-question, .points, .help_question{
     color: #0D1B2A;
     font-family: 'Regular';
     text-align: center;
@@ -19,19 +19,17 @@ h1, h2, h3 {
     border-radius: 8px;
     margin: 20px;
 }
-h4{
+.point_disc{
     text-align: center;
     font-family: "regular";
     color: #C62828;
     text-align: center;
 }
-p{
+.link_page{
     text-align: center;
     font-family: "regular";
-
-
 }
-h5{
+.check{
     color: #0D1B2A;
     font-family: 'regular';
     text-align: center;
@@ -41,22 +39,6 @@ h5{
     color: red;
     font-family: 'Regular';
     text-align: center;
-}
-@media screen and (max-width: 600px){
-    body{
-          background-image: linear-gradient(lightblue, red);
-    }
-    h1, h2, h3{
-        font-size: 10px;
-    }
-    p{
-        font-size: 8px
-    }
-    .index{
-        display: flex;
-        flex-direction:column;
-        font-size: 20px;
-    }
 }
 .image-img{
     display: block;
@@ -78,4 +60,20 @@ h5{
     font-weight: 400;
     border-radius: 8px;
     margin: 20px;
+}
+@media screen and (max-width: 600px){
+    body{
+          background-image: linear-gradient(lightblue, red);
+    }
+    .main_title, .hook-question, .help-question, .points{
+        font-size: 10px;
+    }
+    .content, .point_disc{
+        font-size: 8px
+    }
+    .index{
+        display: flex;
+        flex-direction:column;
+        font-size: 20px;
+    }
 }
