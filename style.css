@@ -1,4 +1,4 @@
-body{
+.maincontent{
 background: linear-gradient(-45deg, #cbcbcb);
   margin: 0;
   padding: 0;
@@ -62,7 +62,7 @@ background: linear-gradient(-45deg, #cbcbcb);
     margin: 20px;
 }
 @media screen and (max-width: 600px){
-    body{
+    .maincontent{
           background-image: linear-gradient(lightblue, red);
     }
     .main_title, .hook-question, .help-question, .points{
@@ -76,4 +76,5 @@ background: linear-gradient(-45deg, #cbcbcb);
         flex-direction:column;
         font-size: 20px;
     }
+}
 }
